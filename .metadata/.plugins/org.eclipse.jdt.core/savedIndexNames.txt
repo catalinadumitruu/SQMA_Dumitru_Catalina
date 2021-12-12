@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+C:\Program Files\Jenkins\Project\SQMA_Dumitru_Catalina\.metadata\.plugins\org.eclipse.jdt.core
+3136130026.index
+3806481287.index
+2441938283.index
+2076777329.index

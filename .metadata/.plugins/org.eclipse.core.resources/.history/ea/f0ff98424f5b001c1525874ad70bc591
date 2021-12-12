@@ -1,0 +1,24 @@
+import static org.junit.Assert.*;
+
+import org.junit.Before;
+import org.junit.Test;
+
+public class CalculatorTestErrors {
+
+	private Calculator calculator;
+	
+    @Before
+    public void setUp() throws Exception {
+        calculator = new Calculator();
+    }
+    
+    @Test(expected = Exception.class)
+    public void testErrorDivide() {
+        try {
+			assertEquals( "Division went wrong", calculator.divide(5,0), 0);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+    }
+
+}

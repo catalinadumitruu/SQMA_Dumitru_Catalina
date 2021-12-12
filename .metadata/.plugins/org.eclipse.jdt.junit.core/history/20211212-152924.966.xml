@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="CalculatorTest" project="Calculator" tests="6" started="6" failures="0" errors="0" ignored="0">
+  <testsuite name="CalculatorTest" time="0.001">
+    <testcase name="testAddition" classname="CalculatorTest" time="0.0"/>
+    <testcase name="testSubstractionNegativ" classname="CalculatorTest" time="0.0"/>
+    <testcase name="testSubstraction" classname="CalculatorTest" time="0.0"/>
+    <testcase name="testDivide" classname="CalculatorTest" time="0.0"/>
+    <testcase name="testMultiply" classname="CalculatorTest" time="0.0"/>
+    <testcase name="testMultiplyWithZero" classname="CalculatorTest" time="0.0"/>
+  </testsuite>
+</testrun>
