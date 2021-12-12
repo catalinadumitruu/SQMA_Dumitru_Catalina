@@ -28,7 +28,7 @@ public class Calculator {
         	throw new Exception("Division went wrong");
         }
     }
-
+ 
     public static void main(String[] args) {
         System.out.println("Running Calculator.java ... ");
     }
