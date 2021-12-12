@@ -26,7 +26,7 @@ public class CalculatorTest {
 
     @Test
     public void testAddition() {
-        assertEquals( "Regular addition should work", calculator.add(4,5), 9);
+        assertEquals( "Regular addition should work", calculator.addNumbers(4,5), 9);
     }
 
     @Test

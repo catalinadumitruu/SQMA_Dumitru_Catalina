@@ -3,7 +3,7 @@ public class Calculator {
         return a * b;
     }
 
-    public int add(int a, int b) {
+    public int addNumbers(int a, int b) {
         return a + b;
     }
 
@@ -21,9 +21,9 @@ public class Calculator {
         return a - b;
     }
 
-    public int divide(int a, int b) throws Exception {
+    public int divide(int c, int b) throws Exception {
         try{
-        	return a / b;
+        	return c / b;
         }catch (Exception e) {
         	throw new Exception("Division went wrong");
         }
